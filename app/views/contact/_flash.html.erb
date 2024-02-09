@@ -1,0 +1,13 @@
+<html>
+<head>
+     <%= stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css", :media => "all" %>
+</head>
+
+<body>
+     <% flash.each do |type, msg| %>
+          <div class="alert alert-<%= type %>">
+              <%= msg %>
+          </div>
+     <% end %>
+</body>
+</html>

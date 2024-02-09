@@ -1,0 +1,217 @@
+/*Importados*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Krona+One&display=swap');
+
+/*bootstrap costum*/
+
+/*Botão Nav*/
+nav{
+    background-color: #D9D9D9 !important;
+}
+.btn.btn-secondary{
+    background-color: #5C2B7D;
+    border-radius: 50px;
+    width: 1fr;
+    height: 1fr;}
+
+    a{
+        color: #ffffff !important;
+        font-family: Inter !important;
+    }
+
+
+.ico-bgh{
+    max-width: 40px;
+}
+
+/*botão banner*/
+.btn.btn-primary{
+    border-color:#883F85;
+    color: #883F85;
+    background-color: #D9D9D9;
+}
+
+
+/*costumizados*/
+section, header{
+
+    background-color: #D9D9D9;
+}
+/*Titulos de section*/
+
+.txt-tituloB{
+    color: hsl(0, 0%, 100%);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    padding: 5%;
+
+}
+
+.txt-tituloR{
+    color:#883F85;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    padding: 5%;
+
+}
+
+/*banner*/
+.banner{
+    background-image:url(Vector.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: hsl(0, 0%, 100%); /*Cor do texto*/
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+
+
+/*textos*/
+.txt-01{ /*"Potencialize o impacto (...)"*/
+    padding: 30px;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 3rex;
+
+}
+
+/*botão*/
+.button{
+    padding: 10%;
+    
+}
+
+
+.subtxt-01{ /*"Confira você mesmo esta página(...)"*/
+    padding-top: 15px;
+    font-size: 15px;
+
+}
+
+.logo-txt{ /*"BGH (...)"*/
+
+    /*layout*/
+    padding: 30px;
+
+    width: 346px;
+    height: 110px;
+   
+    
+    /*typo*/
+    
+   text-align: center;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   font-family: "Krona One";
+   font-size: 64px;
+   line-height: 80%; /* 51.2px */
+   
+
+   
+
+    
+}
+
+.sub-logo-txt{ /*"Deverlop(...)"*/
+    
+    /*layout*/
+    padding-top:10px;
+    
+    /*Tipo*/
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Krona One";
+    font-size: 16px;
+    
+}
+.txt-02{ /*"Especialistas em sites (...)"*/
+
+    padding-top: 10%;
+
+    text-align: center;
+    font-family: inter;
+    font-size: 20px;
+}
+
+
+/*Imagem*/
+.banner-img{
+
+    position:relative;
+    height: 200px;
+    width: 200px;
+    padding-bottom:5% ;
+
+}
+
+/*final do banner*/
+
+/*preço*/
+.planos{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.port{ /*portifolio*/
+
+    background-image:url(fundo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+/*Formulario*/
+
+.form{
+    padding-top: 3%;
+
+    
+
+}
+
+.size-from{
+  padding-left: 30%;
+  padding-right: 30%;
+
+}
+
+.padding{
+
+    padding-bottom: 10%;
+
+}
+
+/*Hover*/
+
+.btn.btn-secondary:hover{
+    transition: 0.5s;
+    background-color: #883F85;
+}
+
+.btn.btn.btn-primary:hover{
+    border-color: aliceblue;
+    background-color: #883F85;
+   
+}
+
+/*Mobile*/
+@media screen and (max-width: 991px){
+
+    .logo-txt{
+        margin-left: 10%;
+    }
+    
+
+}

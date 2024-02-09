@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%= stylesheet_link_tag "style", :media => "all" %>
+    <%= stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css", :media => "all" %>
+  </head>
+
+  <body>
+      <%= render partial: 'contact/flash' %>
+  <header>
+
+      <!--nav-test-->
+
+
+      <nav id="nav" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><%= image_tag('BGH_LOGO-ico.ico', class: 'ico-bgh') %></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              
+              <li class="nav-item btn btn-secondary">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+
+              <li class="nav-item btn btn-secondary">
+                <a class="nav-link" href="#planos">Planos</a>
+              </li>
+              
+              <li class="nav-item btn btn-secondary">
+                <a class="nav-link" href="#portifolio">Portfólio</a>
+              </li>
+              
+              <li class="nav-item btn btn-secondary">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+           
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+
+
+
+
+      
+     <!--nav-->
+       
+      <!--banner-->
+
+    
+    </header>
+
+     <!--banner-->
+    <section id="home" class="banner">
+        <div class="container text-center">
+        <div class="row">
+          <div class="col">
+                <h1 class="txt-01">Potencialize o impacto online de sua marca conosco!</h1>
+                <!--botoes-->
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary"><strong>Contato</strong></button>
+                    <button type="button" class="btn btn-primary"><strong>Planos</strong></button>
+                  </div>
+                  <p class="subtxt-01">Confira você mesmo esta página e muitas outras criadadas pelo nosso time de Desenvolvimento!</p>
+
+              
+              </div>
+              <div class="col"> 
+                <p class="logo-txt">BGH<br>Studios</p>
+                <p class="sub-logo-txt">DEVELOPMENT</p>
+              </div>
+              <div class="col">
+               <p class="txt-02">Especialistas em sites criados com a poderosa tecnologia Ruby on Rails</p>
+               <%= image_tag('banner01.png', class: 'banner-img') %>
+              </div>
+            </div>
+          </div>
+
+
+    </section>
+
+     <!--Planos e Preços-->
+    
+    <section id="planos" class="planos">
+
+      <div class="container text-center">
+        <h2 class="txt-tituloR">Planos</h2>
+        <div class="row">
+          <div class="col">
+
+            <div class="card">
+           
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+              <div class="card-body">
+              </div>
+            </div>
+
+          </div>
+          <div class="col">
+
+            <div class="card">
+
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+              <div class="card-body">
+              </div>
+            </div>
+
+          </div>
+          <div class="col">
+
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+              <div class="card-body">
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+    </section>
+ 
+    <!--portifolio-->
+    <section id="portifolio" class="port">
+      <h2  class="txt-tituloB">Portifólio</h2>
+    <!--Tela01-->
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            
+            <div>
+
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col order-last">
+                   <%= image_tag('BGH_LOGO.png') %>
+                  </div>
+                  <div class="col">
+                    <%= image_tag('BGH_LOGO.png') %>
+                  </div>
+                  <div class="col order-first">
+                    <%= image_tag('BGH_LOGO.png') %>
+                  </div>
+                </div>
+              </div>
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col order-last">
+                    <%= image_tag('BGH_LOGO.png') %>
+                  </div>
+                  <div class="col">
+                    <%= image_tag('BGH_LOGO.png') %>
+                  </div>
+                  <div class="col order-first">
+                    <%= image_tag('BGH_LOGO.png') %>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <!--Tela02-->
+          <div class="carousel-item">
+           
+            <div>
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col order-last">
+                   <%= image_tag('BGH_LOGO.png') %>
+                  </div>
+                  <div class="col">
+                    <%= image_tag('BGH_LOGO.png') %>
+                  </div>
+                  <div class="col order-first">
+                    <%= image_tag('BGH_LOGO.png') %>
+                  </div>
+                </div>
+              </div>
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col order-last">
+                    <%= image_tag('BGH_LOGO.png') %>
+                  </div>
+                  <div class="col">
+                    <%= image_tag('BGH_LOGO.png') %>
+                  </div>
+                  <div class="col order-first">
+                    <%= image_tag('BGH_LOGO.png') %>
+                  </div>
+                </div>
+              </div>
+           </div>
+
+          </div>
+          <div class="carousel-item">
+            
+           <!--Tela03-->
+            <div>
+
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col order-last">
+                   <%= image_tag('BGH_LOGO.png') %>
+                  </div>
+                  <div class="col">
+                    <%= image_tag('BGH_LOGO.png') %>
+                  </div>
+                  <div class="col order-first">
+                    <%= image_tag('BGH_LOGO.png') %>
+                  </div>
+                </div>
+              </div>
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col order-last">
+                    <%= image_tag('BGH_LOGO.png') %>
+                  </div>
+                  <div class="col">
+                    <%= image_tag('BGH_LOGO.png') %>
+                  </div>
+                  <div class="col order-first">
+                    <%= image_tag('BGH_LOGO.png') %>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
+
+    <!--formulario-->
+    <section id="contato" class="form">
+      <%= render 'contact/new' %>
+    </section>
+  
+     <!--roda-pe-->
+            <footer id="footer" class="bg-dark text-center text-lg-start text-white">
+              <!-- Grid container -->
+              <div class="container p-4">
+                <!--Grid row-->
+                <div class="row mt-4">
+                  <!--Grid column-->
+                  <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Sobre a empresa</h5>
+          
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#!" class="text-white"><i class="fas fa-book fa-fw fa-sm me-2"></i>BGH Studios</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-white"><i class="fas fa-book fa-fw fa-sm me-2"></i>DEV BGH Studios</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-white"><i class="fas fa-user-edit fa-fw fa-sm me-2"></i>X</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!--Grid column-->
+          
+                  <!--Grid column-->
+                  <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Write to us</h5>
+          
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#!" class="text-white"><i class="fas fa-at fa-fw fa-sm me-2"></i>Help in purchasing</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-white"><i class="fas fa-shipping-fast fa-fw fa-sm me-2"></i>Check the order status</a>
+                      </li>
+                      <li>
+                        <a href="#!" class="text-white"><i class="fas fa-envelope fa-fw fa-sm me-2"></i>Join the newsletter</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </div>
+              <!-- Grid container -->
+          
+              <!-- Copyright -->
+              <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                © 2024 Copyright:
+                <a class="text-white" href="https://dev.bghstudios.com.br/">Development BGH Studios</a>
+              </div>
+              <!-- Copyright -->
+
+    </footer>
+  </body>
+</html>
