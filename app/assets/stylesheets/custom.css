@@ -43,9 +43,7 @@ color: #FFF;
 margin-left: 10px;
 width: 401px;
 text-align: center;
-font-family: ;
 font-size: 25px;
-font-style: ;
 font-weight: 400;
 line-height: 100%; /* 32px */
 letter-spacing: -1.92px;
@@ -56,9 +54,7 @@ letter-spacing: -1.92px;
     
     color: #FFF;
 text-align: center;
-font-family:;
 font-size: 10px;
-font-style:;
 font-weight: 400;
 line-height: 95%; /* 12.35px */
     
@@ -103,7 +99,7 @@ p{/**/
 
 
 .logo {
-    display: flex
+    display: flex;
     justify-content: center;
     width: 21%;
     align-content: flex-start;

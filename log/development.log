@@ -22877,3 +22877,94 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 13014)
 
 
+Started GET "/" for ::1 at 2024-03-22 10:09:22 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contact/_flash.html.erb (Duration: 1.6ms | Allocations: 587)
+  Rendered contact/_new.html.erb (Duration: 2.4ms | Allocations: 1555)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 165.7ms | Allocations: 49048)
+  Rendered layout layouts/application.html.erb (Duration: 167.4ms | Allocations: 51618)
+Completed 200 OK in 178ms (Views: 171.3ms | ActiveRecord: 0.0ms | Allocations: 55736)
+
+
+Started GET "/" for ::1 at 2024-03-22 10:09:27 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contact/_flash.html.erb (Duration: 6.5ms | Allocations: 1326)
+  Rendered contact/_new.html.erb (Duration: 1.1ms | Allocations: 450)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 14.7ms | Allocations: 9046)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 11270)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 11510)
+
+
+Started GET "/" for ::1 at 2024-03-22 12:13:36 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contact/_flash.html.erb (Duration: 3.7ms | Allocations: 1735)
+  Rendered contact/_new.html.erb (Duration: 2.4ms | Allocations: 1543)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 164.2ms | Allocations: 64179)
+  Rendered layout layouts/application.html.erb (Duration: 165.2ms | Allocations: 66695)
+Completed 200 OK in 178ms (Views: 168.4ms | ActiveRecord: 0.0ms | Allocations: 70749)
+
+
+Started GET "/" for ::1 at 2024-03-22 12:15:50 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contact/_flash.html.erb (Duration: 4.4ms | Allocations: 498)
+  Rendered contact/_new.html.erb (Duration: 8.3ms | Allocations: 827)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 64.5ms | Allocations: 9879)
+  Rendered layout layouts/application.html.erb (Duration: 75.8ms | Allocations: 12354)
+Completed 200 OK in 84ms (Views: 77.9ms | ActiveRecord: 0.0ms | Allocations: 13256)
+
+
+Started GET "/" for ::1 at 2024-03-22 12:16:52 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contact/_flash.html.erb (Duration: 0.4ms | Allocations: 502)
+  Rendered contact/_new.html.erb (Duration: 0.7ms | Allocations: 826)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 9853)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 12308)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 13205)
+
+
+Started GET "/" for ::1 at 2024-03-22 12:33:55 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contact/_flash.html.erb (Duration: 4.2ms | Allocations: 1735)
+  Rendered contact/_new.html.erb (Duration: 1.5ms | Allocations: 1543)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 151.5ms | Allocations: 60440)
+  Rendered layout layouts/application.html.erb (Duration: 152.6ms | Allocations: 62956)
+Completed 200 OK in 166ms (Views: 156.2ms | ActiveRecord: 0.0ms | Allocations: 67010)
+
+
+Started GET "/" for ::1 at 2024-03-22 12:34:19 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contact/_flash.html.erb (Duration: 1.1ms | Allocations: 516)
+  Rendered contact/_new.html.erb (Duration: 3.1ms | Allocations: 827)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 10.0ms | Allocations: 9868)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 12323)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 13223)
+
+
+Started GET "/" for ::1 at 2024-03-22 12:34:21 -0300
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered contact/_flash.html.erb (Duration: 0.6ms | Allocations: 299)
+  Rendered contact/_new.html.erb (Duration: 1.3ms | Allocations: 449)
+  Rendered welcome/index.html.erb within layouts/application (Duration: 28.7ms | Allocations: 8231)
+  Rendered layout layouts/application.html.erb (Duration: 31.7ms | Allocations: 10475)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.0ms | Allocations: 10720)
+
+
